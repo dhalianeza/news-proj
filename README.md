@@ -12,8 +12,7 @@ no unkown errors
  vs code
  ubuntu window
  ## Link to heroku
-
-
+ https://newshighlightoffical.herokuapp.com/
  ### License
- MID
+ MIT
 Copyright (c) {2020} NYIRANEZA 
