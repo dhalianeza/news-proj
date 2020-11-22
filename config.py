@@ -1,7 +1,7 @@
 import os
 class Config:
-    NEWS_SOURCES_BASE_URL='https://newsapi.org/v2/sources?apiKey=18b06483376c497f815f4bea6845a114'
-    ARTICLES_BASE_URL='https://newsapi.org/v2/everything?q=bitcoin&apiKey=18b06483376c497f815f4bea6845a114'
+    NEWS_SOURCES_BASE_URL='https://newsapi.org/v2/sources?apiKey=186f54aff26940a7b65d6212edadc711'
+    ARTICLES_BASE_URL='https://newsapi.org/v2/everything?q=bitcoin&apiKey=186f54aff26940a7b65d6212edadc711'
     NEWS_API_KEY=os.environ.get('NEWS_API_KEY')
 
     @staticmethod
