@@ -1,15 +1,15 @@
 {% extends 'base.html' %}
 {% block content%}
 <div class="container" style="background-image: url('https://images.unsplash.com/photo-1606059979642-8390434af3d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80'); background-repeat: no-repeat; background-size: cover; width: 80%">
-	<h2 style="color: yellow; text-align:center" >Top news</h2>
+	<h2 style="color:green; text-align:center" >Top news</h2>
 	{% for article_row in articles | batch(4)%}
     <div class="row">
 		{% for article in article_row%}
 		<div class="col-md-3">
 			<div class="thumbnail"style="background-color: transparent; text-align:center">
 				<a href="{{article.url}}" target="_blank"><img src="{{article.image}}" alt="{{article.title}}" class="img-responsive" style="height:30px"></a>
-				<div class="caption" style="color: yellow">
-					<h4><a href ="{{article.url}}" target="_blank"  style="color: yellow">{{article.title | truncate(35)}}</a></h4>
+				<div class="caption" style="color: purple">
+					<h4><a href ="{{article.url}}" target="_blank"  style="color: chocolate">{{article.title | truncate(35)}}</a></h4>
 					<p>{{article.decription | truncate(80)}}</p>
 					<a href="{{article.url}}" target="_blank"><strong>more</strong></a>
 				</div>
