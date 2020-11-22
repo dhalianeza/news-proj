@@ -3,4 +3,6 @@
  ## Description
 this news website canbe use reading any type or any kind of news arround the world and it will help the  user to get news very faster
 ## Setup/Installation Requirements
-*  the setup installation i used is python3.6 flask and bootsrap
+ the setup installation i used is python3.6 flask and bootsrap
+## Known Bugs
+no unkown errors
