@@ -12,3 +12,6 @@ no unkown errors
  vs code
  ubuntu window
  
+ ### License
+ MID
+Copyright (c) {2020} NYIRANEZA Dhalia
