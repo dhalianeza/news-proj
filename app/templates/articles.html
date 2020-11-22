@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content%}
-<div class="container" style="background-image: url('https://res.cloudinary.com/drrezzrvd/image/upload/v1568464281/images_1_hg7jgo.jpg'); background-repeat: no-repeat; background-size: cover; width: 80%">
+<div class="container" style="background-image: url('https://images.unsplash.com/photo-1606059979642-8390434af3d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80'); background-repeat: no-repeat; background-size: cover; width: 80%">
 	<h2 style="color: yellow; text-align:center" >Top news</h2>
 	{% for article_row in articles | batch(4)%}
     <div class="row">
