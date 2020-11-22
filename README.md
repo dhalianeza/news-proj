@@ -6,3 +6,9 @@ this news website canbe use reading any type or any kind of news arround the wor
  the setup installation i used is python3.6 flask and bootsrap
 ## Known Bugs
 no unkown errors
+## Technologies Used
+ python3.6
+ terminal
+ vs code
+ ubuntu window
+ 
